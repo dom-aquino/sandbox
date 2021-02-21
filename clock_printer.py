@@ -15,6 +15,9 @@ def getTime(input_string):
         
         # String containing the counter clockwise arrangement of the alphabet
         reversed_alphabet = alphabet[0] + alphabet[-1:-26:-1]
+
+        # Find the position of the character relative to the
+        # reversed alphabet arrangement
         ccw_position = reversed_alphabet.find(current_char)
 
         # Update the alphabet for the next iteration
