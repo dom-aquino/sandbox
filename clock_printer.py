@@ -26,4 +26,4 @@ def getTime(input_string):
     return time
 
 if __name__ == "__main__":
-    print("Total Time:", getTime('DOMINIQUEIANAQUINO'))
+    print("Total Time:", getTime('BZA'))
